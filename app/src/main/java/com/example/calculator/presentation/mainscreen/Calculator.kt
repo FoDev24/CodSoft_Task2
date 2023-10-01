@@ -13,9 +13,9 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.calculator.presentation.mainscreen.common.CalculatorButton
+import com.example.calculator.ui.theme.LightBlue
 import com.example.calculator.ui.theme.LightGray
 import com.example.calculator.ui.theme.MediumGray
-import com.example.calculator.ui.theme.Orange
 
 @Composable
 fun Calculator(
@@ -70,7 +70,7 @@ fun Calculator(
 
                 CalculatorButton(
                     modifier = Modifier
-                        .background(Orange)
+                        .background(LightBlue)
                         .aspectRatio(1f)
                         .weight(1f), symbol = "/",
                     onClick = {
@@ -117,7 +117,7 @@ fun Calculator(
 
                 CalculatorButton(
                     modifier = Modifier
-                        .background(Orange)
+                        .background(LightBlue)
                         .aspectRatio(1f)
                         .weight(1f), symbol = "x",
                     onClick = {
@@ -164,7 +164,7 @@ fun Calculator(
 
                 CalculatorButton(
                     modifier = Modifier
-                        .background(Orange)
+                        .background(LightBlue)
                         .aspectRatio(1f)
                         .weight(1f), symbol = "-",
                     onClick = {
@@ -210,7 +210,7 @@ fun Calculator(
 
                 CalculatorButton(
                     modifier = Modifier
-                        .background(Orange)
+                        .background(LightBlue)
                         .aspectRatio(1f)
                         .weight(1f), symbol = "+",
                     onClick = {
@@ -245,7 +245,7 @@ fun Calculator(
 
                 CalculatorButton(
                     modifier = Modifier
-                        .background(Color.DarkGray)
+                        .background(LightBlue)
                         .aspectRatio(1f)
                         .weight(1f), symbol = "=",
                     onClick = {

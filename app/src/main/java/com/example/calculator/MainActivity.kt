@@ -20,6 +20,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CalculatorTheme {
+
                 val viewModel = viewModel<CalculatorViewModel>()
                 val state = viewModel.state
                 Calculator(state = state, onAction = {event->
